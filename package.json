@@ -14,25 +14,27 @@
 		"aureooms-js-search": "^0.0.4",
 		"aureooms-js-array": "^2.2.0"
 	},
-	"main": "js/dist/sort.js",
+	"main": "js/dist/heapsort.js",
 	"bugs": {
-		"url": "https://github.com/aureooms/js-sort/issues"
+		"url": "https://github.com/aureooms/js-heapsort/issues"
 	},
 	"license": "AGPL-3.0",
-	"homepage": "http://aureooms.github.io/js-sort/",
-	"description": "sorting code bricks for JavaScript",
+	"homepage": "http://aureooms.github.io/js-heapsort/",
+	"description": "heapsort code bricks for JavaScript",
 	"dependencies": {},
 	"keywords": [
 		"bricks",
+		"ender",
+		"heap",
+		"heapsort",
 		"javascript",
 		"js",
-		"order",
 		"sort",
 		"sorting"
 	],
-	"name": "aureooms-js-sort",
+	"name": "aureooms-js-heapsort",
 	"repository": {
-		"url": "https://github.com/aureooms/js-sort.git",
+		"url": "https://github.com/aureooms/js-heapsort.git",
 		"type": "git"
 	},
 	"version": "5.0.4"

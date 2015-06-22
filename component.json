@@ -1,11 +1,11 @@
 {
-	"description": "sorting code bricks for JavaScript",
+	"description": "heapsort code bricks for JavaScript",
 	"version": "5.0.4",
-	"repo": "aureooms/js-sort",
+	"repo": "aureooms/js-heapsort",
 	"scripts": [
-		"js/dist/sort.js"
+		"js/dist/heapsort.js"
 	],
-	"name": "aureooms-js-sort",
+	"name": "aureooms-js-heapsort",
 	"license": "AGPL-3.0",
-	"main": "js/dist/sort.js"
+	"main": "js/dist/heapsort.js"
 }
