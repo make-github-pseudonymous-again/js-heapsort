@@ -1,7 +1,7 @@
 [js-heapsort](http://aureooms.github.io/js-heapsort)
 ==
 
-Sorting code bricks for JavaScript.
+Heapsort code bricks for JavaScript.
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-heapsort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-heapsort/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-heapsort.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-heapsort)
@@ -21,7 +21,7 @@ Can be managed through [duo](https://github.com/duojs/duo),
 [npm](https://github.com/npm/npm).
 
 ```js
-let sort = require( "aureooms-js-heapsort" ) ;
+let heapsort = require( "aureooms-js-heapsort" ) ;
 ```
 
 ## Use
@@ -29,40 +29,29 @@ let sort = require( "aureooms-js-heapsort" ) ;
 ```js
 let compare = require( "aureooms-js-compare" ) ;
 
-/** quicksort using hoare partitioning */
-let quicksort = sort.__quicksort__( sort.hoare ) ;
+/** binary heapsort */
+let sort = heapsort.__heapsort__( 2 ) ;
 
 let a = [ 1 , 6 , 5 , 3 , 2 , 4 ] ;
 
-quicksort( compare.increasing , a , 0 , a.length ) ;
+sort( compare.increasing , a , 0 , a.length ) ;
 
 a ; // [ 1 , 2 , 3 , 4 , 5 , 6 ]
 
-quicksort( compare.decreasing , a , 0 , a.length ) ;
+sort( compare.decreasing , a , 0 , a.length ) ;
 
 a ; // [ 6 , 5 , 4 , 3 , 2 , 1 ]
 
 // but also
 
-/** binary heapsort */
-let heapsort = sort.__heapsort__( 2 ) ;
 /** ternary heapsort */
-let heapsort = sort.__heapsort__( 3 ) ;
-/** quicksort (lomuto) */
-let quicksort = sort.__quicksort__( sort.lomuto ) ;
-/** dualpivotquicksort (yaroslavskiy) */
-let quicksort = sort.__dualpivotquicksort__( sort.yaroslavskiy ) ;
-/** insertionsort */
-let insertionsort = sort.insertionsort ;
-/** selectionsort */
-let selectionsort = sort.selectionsort ;
-/** bubblesort */
-let bubblesort = sort.bubblesort ;
+let sort = heapsort.__heapsort__( 3 ) ;
+/** quaternary heapsort */
+let sort = heapsort.__heapsort__( 4 ) ;
+/** etc... */
+let sort = heapsort.__heapsort__( 5 ) ;
 ```
 
 ## Reference
 
-  - https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/3463
   - http://sorting.at
-
-***( forked from [js-sort](https://github.com/aureooms/js-sort) )***
