@@ -1,36 +1,36 @@
 {
-  "author": "aureooms",
-  "scripts": {
-    "doc": "./node_modules/.bin/groc",
-    "build": "./node_modules/.bin/aureooms-node-package-build",
-    "test": "./node_modules/.bin/aureooms-node-package-test"
-  },
-  "devDependencies": {
-    "aureooms-js-in-situ-sort-spec": "^6.0.1",
-    "aureooms-node-package": "^4.2.3"
-  },
-  "main": "js/dist/heapsort.js",
-  "bugs": {
-    "url": "https://github.com/aureooms/js-heapsort/issues"
-  },
-  "license": "AGPL-3.0",
-  "homepage": "http://aureooms.github.io/js-heapsort/",
-  "description": "heapsort code bricks for JavaScript",
-  "dependencies": {},
-  "keywords": [
-    "bricks",
-    "ender",
-    "heap",
-    "heapsort",
-    "javascript",
-    "js",
-    "sort",
-    "sorting"
-  ],
-  "name": "aureooms-js-heapsort",
-  "repository": {
-    "url": "https://github.com/aureooms/js-heapsort.git",
-    "type": "git"
-  },
-  "version": "6.0.0"
+	"author": "aureooms",
+	"scripts": {
+		"doc": "./node_modules/.bin/groc",
+		"build": "./node_modules/.bin/aureooms-node-package-build",
+		"test": "./node_modules/.bin/aureooms-node-package-test"
+	},
+	"devDependencies": {
+		"aureooms-js-in-situ-sort-spec": "^6.0.1",
+		"aureooms-node-package": "^4.2.3"
+	},
+	"main": "js/dist/heapsort.js",
+	"bugs": {
+		"url": "https://github.com/aureooms/js-heapsort/issues"
+	},
+	"license": "AGPL-3.0",
+	"homepage": "http://aureooms.github.io/js-heapsort/",
+	"description": "heapsort code bricks for JavaScript",
+	"dependencies": {},
+	"keywords": [
+		"bricks",
+		"ender",
+		"heap",
+		"heapsort",
+		"javascript",
+		"js",
+		"sort",
+		"sorting"
+	],
+	"name": "aureooms-js-heapsort",
+	"repository": {
+		"url": "https://github.com/aureooms/js-heapsort.git",
+		"type": "git"
+	},
+	"version": "7.0.0"
 }
