@@ -1,10 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><title>heapsort</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="heapsort"><meta name="groc-project-path" content="js/src/heapsort.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-heapsort"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-heapsort/blob/master/js/src/heapsort.js">js/src/heapsort.js</a></div></div><div id="document"><div class="segment"></div><div class="segment"><div class="comments "><div class="wrapper"><p>Template for a raw implementation of heapsort.</p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">var</span> __heapsort__ = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> arity </span>) </span>{</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Note that here we reverse the order of the
+<!DOCTYPE html><html lang="en"><head><title>heapsort</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="heapsort"><meta name="groc-project-path" content="js/src/heapsort.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-heapsort"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-heapsort/blob/master/js/src/heapsort.js">js/src/heapsort.js</a></div></div><div id="document"><div class="segment"></div><div class="segment"><div class="comments "><div class="wrapper"><p>Template for a d-ary implementation of heapsort.</p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">let</span> dary = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> arity </span>) </span>{</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Note that here we reverse the order of the
 comparison operator since when we extract
 values from the heap they can only be stored
 at the end of the array. We thus build a max-heap
-and then pop elements from it until it is empty.</p></div></div><div class="code"><div class="wrapper">	<span class="hljs-keyword">var</span> heapsort = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> compare, a, i, j </span>) </span>{
+and then pop elements from it until it is empty.</p></div></div><div class="code"><div class="wrapper">	<span class="hljs-keyword">let</span> sort = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> compare, a, i, j </span>) </span>{
 
-		<span class="hljs-keyword">var</span> k, y, t, current, parent, candidate, tmp;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>construct the max-heap</p></div></div><div class="code"><div class="wrapper">		<span class="hljs-keyword">for</span> ( k = i + <span class="hljs-number">1</span> ; k &lt; j ; ++k ) {
+		<span class="hljs-keyword">let</span> k, y, t, current, parent, candidate, tmp;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>construct the max-heap</p></div></div><div class="code"><div class="wrapper">		<span class="hljs-keyword">for</span> ( k = i + <span class="hljs-number">1</span> ; k &lt; j ; ++k ) {
 
 			current = k - i;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>while we are not the root</p></div></div><div class="code"><div class="wrapper">			<span class="hljs-keyword">while</span> ( current !== <span class="hljs-number">0</span> ) {</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>address of the parent in a zero-based
 d-ary heap</p></div></div><div class="code"><div class="wrapper">				parent = i + ( ( current - <span class="hljs-number">1</span> ) / arity | <span class="hljs-number">0</span> );
@@ -60,8 +60,8 @@ swap with greatest child</p></div></div><div class="code"><div class="wrapper">	
 
 	};
 
-	<span class="hljs-keyword">return</span> heapsort;
+	<span class="hljs-keyword">return</span> sort;
 
 };
 
-exports.__heapsort__ = __heapsort__;</div></div></div></div></body></html>
+exports.dary = dary;</div></div></div></div></body></html>
