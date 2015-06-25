@@ -1,12 +1,12 @@
 
 
 /**
- * Template for a raw implementation of heapsort.
+ * Template for a d-ary implementation of heapsort.
  *
  *
  */
 
-var __heapsort__ = function ( arity ) {
+let dary = function ( arity ) {
 
 	/**
 	 * Note that here we reverse the order of the
@@ -16,9 +16,9 @@ var __heapsort__ = function ( arity ) {
 	 * and then pop elements from it until it is empty.
 	 */
 
-	var heapsort = function ( compare, a, i, j ) {
+	let sort = function ( compare, a, i, j ) {
 
-		var k, y, t, current, parent, candidate, tmp;
+		let k, y, t, current, parent, candidate, tmp;
 
 		// construct the max-heap
 
@@ -122,8 +122,8 @@ var __heapsort__ = function ( arity ) {
 
 	};
 
-	return heapsort;
+	return sort;
 
 };
 
-exports.__heapsort__ = __heapsort__;
+exports.dary = dary;
