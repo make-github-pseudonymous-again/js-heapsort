@@ -1,7 +1,8 @@
 [js-heapsort](http://aureooms.github.io/js-heapsort)
 ==
 
-Heapsort code bricks for JavaScript.
+Heapsort code bricks for JavaScript. Parent is
+[aureooms/js-sort](https://github.com/aureooms/js-sort).
 
 ```js
 let sort = heapsort.dary( 2 ) ;
