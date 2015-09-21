@@ -2,7 +2,7 @@
 
 (function () {
 
-	"use strict";
+	'use strict';
 
 	var definition = function definition(exports, undefined) {
 
