@@ -1,6 +1,9 @@
-var insitusortspec = require( "aureooms-js-in-situ-sort-spec" ) ;
+import ava from 'ava' ;
 
-insitusortspec.test( [
+import * as spec from "aureooms-js-in-situ-sort-spec" ;
+import * as heapsort from "../../src" ;
+
+spec.test( ava , [
     [ "heapsort (unary)", heapsort.dary( 1 ) ],
     [ "heapsort (binary)", heapsort.dary( 2 ) ],
     [ "heapsort (ternary)", heapsort.dary( 3 ) ],

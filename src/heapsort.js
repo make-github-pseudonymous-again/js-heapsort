@@ -1,12 +1,11 @@
 
-
 /**
  * Template for a d-ary implementation of heapsort.
  *
  *
  */
 
-let dary = function ( arity ) {
+export function dary ( arity ) {
 
 	/**
 	 * Note that here we reverse the order of the
@@ -16,15 +15,15 @@ let dary = function ( arity ) {
 	 * and then pop elements from it until it is empty.
 	 */
 
-	let sort = function ( compare, a, i, j ) {
-
-		let k, y, t, current, parent, candidate, tmp;
+	const sort = function ( compare, a, i, j ) {
 
 		// construct the max-heap
 
-		for ( k = i + 1 ; k < j ; ++k ) {
+		let k = i + 1 ;
 
-			current = k - i;
+		for ( ; k < j ; ++k ) {
+
+			let current = k - i;
 
 			// while we are not the root
 
@@ -33,7 +32,7 @@ let dary = function ( arity ) {
 				// address of the parent in a zero-based
 				// d-ary heap
 
-				parent = i + ( ( current - 1 ) / arity | 0 );
+				const parent = i + ( ( current - 1 ) / arity | 0 );
 				current += i;
 
 				// if current value is smaller than its parent
@@ -46,7 +45,7 @@ let dary = function ( arity ) {
 				// otherwise
 				// swap with parent
 
-				tmp = a[current];
+				const tmp = a[current];
 				a[current] = a[parent];
 				a[parent] = tmp;
 
@@ -64,18 +63,18 @@ let dary = function ( arity ) {
 			// and percolate new max element down
 			// the heap
 
-			tmp = a[k];
+			const tmp = a[k];
 			a[k] = a[i];
 			a[i] = tmp;
 
-			current = 0;
+			let current = 0;
 
 			while ( true ) {
 
 				// address of the first child in a zero-based
 				// d-ary heap
 
-				candidate = i + arity * current + 1;
+				let candidate = i + arity * current + 1;
 
 				// if current node has no children
 				// then we are done
@@ -86,9 +85,9 @@ let dary = function ( arity ) {
 
 				// search for greatest child
 
-				t = Math.min( candidate + arity, k );
+				const t = Math.min( candidate + arity, k );
 
-				y = candidate;
+				let y = candidate;
 
 				for ( ++y ; y < t ; ++y ) {
 
@@ -110,7 +109,7 @@ let dary = function ( arity ) {
 				// otherwise
 				// swap with greatest child
 
-				tmp = a[current];
+				const tmp = a[current];
 				a[current] = a[candidate];
 				a[candidate] = tmp;
 
@@ -124,6 +123,4 @@ let dary = function ( arity ) {
 
 	return sort;
 
-};
-
-exports.dary = dary;
+}
