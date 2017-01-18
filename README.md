@@ -1,8 +1,10 @@
 [js-heapsort](http://aureooms.github.io/js-heapsort)
 ==
 
-Heapsort algorithms for JavaScript. Parent is
-[aureooms/js-sort](https://github.com/aureooms/js-sort).
+Heapsort algorithms for JavaScript. Parents are
+[aureooms/js-sort](https://github.com/aureooms/js-sort)
+and
+[aureooms/js-heap](https://github.com/aureooms/js-heap).
 
 ```js
 let sort = heapsort.dary( 2 ) ;
