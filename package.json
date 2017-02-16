@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-heapsort",
+  "name": "@aureooms/js-heapsort",
   "description": "Heapsort algorithm for JavaScript",
   "version": "9.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -24,7 +24,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "aureooms-js-in-situ-sort-spec": "^7.0.0",
+    "@aureooms/js-in-situ-sort-spec": "^7.0.0",
     "ava": "^0.18.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
