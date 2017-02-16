@@ -1,5 +1,5 @@
 ```js
-let compare = require( "aureooms-js-compare" ) ;
+let compare = require( "@aureooms/js-compare" ) ;
 
 /** binary heapsort */
 let sort = heapsort.dary( 2 ) ;
