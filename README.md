@@ -10,7 +10,7 @@ and
 let sort = heapsort.dary( 2 ) ;
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-heapsort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-heapsort/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-heapsort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-heapsort/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-heapsort.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-heapsort)
 [![Build Status](https://img.shields.io/travis/aureooms/js-heapsort.svg?style=flat)](https://travis-ci.org/aureooms/js-heapsort)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-heapsort.svg?style=flat)](https://coveralls.io/r/aureooms/js-heapsort)
