@@ -1,3 +1,4 @@
+# Examples
 ```js
 let compare = require( "@aureooms/js-compare" ) ;
 
