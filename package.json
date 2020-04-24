@@ -30,10 +30,6 @@
   "devDependencies": {
     "@aureooms/js-in-situ-sort-spec": "^7.0.2",
     "ava": "^3.7.1",
-    "babel-cli": "^6.23.0",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-latest": "^6.22.0",
-    "codeclimate-test-reporter": "^0.4.1",
     "coveralls": "^2.11.16",
     "esdoc": "^1.1.0",
     "nyc": "^11.0.1",
