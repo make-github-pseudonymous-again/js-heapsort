@@ -1,4 +1,4 @@
-[js-heapsort](http://aureooms.github.io/js-heapsort)
+[js-heapsort](http://make-github-pseudonymous-again.github.io/js-heapsort)
 ==
 
 Heapsort algorithms for JavaScript. Parents are
@@ -22,7 +22,7 @@ let sort = heapsort.dary( 2 ) ;
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-heapsort.svg)](https://codeclimate.com/github/aureooms/js-heapsort/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-heapsort/master.svg)](https://codecov.io/gh/aureooms/js-heapsort)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-heapsort.svg)](https://codeclimate.com/github/aureooms/js-heapsort/trends/technical_debt)
-[![Documentation](http://aureooms.github.io/js-heapsort/badge.svg)](http://aureooms.github.io/js-heapsort/source.html)
+[![Documentation](http://make-github-pseudonymous-again.github.io/js-heapsort/badge.svg)](http://make-github-pseudonymous-again.github.io/js-heapsort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-heapsort)](https://bundlephobia.com/result?p=@aureooms/js-heapsort)
 
 ## Reference
