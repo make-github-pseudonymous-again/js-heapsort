@@ -94,6 +94,7 @@
     "timeout": "1m"
   },
   "babel": {
+    "sourceMaps": true,
     "presets": [
       [
         "@babel/preset-env",
@@ -165,7 +166,6 @@
         ]
       },
       "development": {
-        "sourceMaps": "inline",
         "presets": [
           "babel-preset-power-assert"
         ],
