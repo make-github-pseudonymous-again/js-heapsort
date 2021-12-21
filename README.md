@@ -1,4 +1,4 @@
-[js-heapsort](http://comparison-sorting.github.io/heap-sort)
+[js-heapsort](https://comparison-sorting.github.io/heap-sort)
 ==
 
 Heapsort algorithms for JavaScript. Parents are
@@ -21,7 +21,7 @@ let sort = heapsort.dary( 2 ) ;
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/comparison-sorting/heap-sort.svg)](https://codeclimate.com/github/comparison-sorting/heap-sort/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/comparison-sorting/heap-sort/main.svg)](https://codecov.io/gh/comparison-sorting/heap-sort)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/comparison-sorting/heap-sort.svg)](https://codeclimate.com/github/comparison-sorting/heap-sort/trends/technical_debt)
-[![Documentation](http://comparison-sorting.github.io/heap-sort/badge.svg)](http://comparison-sorting.github.io/heap-sort/source.html)
+[![Documentation](https://comparison-sorting.github.io/heap-sort/badge.svg)](https://comparison-sorting.github.io/heap-sort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@comparison-sorting/heap-sort)](https://bundlephobia.com/result?p=@comparison-sorting/heap-sort)
 
 ## Reference
