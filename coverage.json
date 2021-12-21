@@ -3,7 +3,7 @@
   "expectCount": 1,
   "actualCount": 1,
   "files": {
-    "src/heapsort.js": {
+    "src/dary.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
