@@ -1,15 +1,8 @@
 # Usage
-The code needs a ES2015+ polyfill to work, for example
-[regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).
-```js
-await import( 'regenerator-runtime/runtime.js' ) ;
-// or
-import 'regenerator-runtime/runtime.js' ;
-```
 
-Then
+Import where needed:
 ```js
-const measure = await import( '@comparison-sorting/heap-sort' ) ;
+const heapSort = await import('@comparison-sorting/heap-sort');
 // or
-import measure from '@comparison-sorting/heap-sort' ;
+import * as heapSort from '@comparison-sorting/heap-sort';
 ```

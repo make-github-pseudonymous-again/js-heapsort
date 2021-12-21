@@ -1,4 +1,5 @@
-[js-heapsort](https://comparison-sorting.github.io/heap-sort)
+:octopus:
+[@comparison-sorting/heap-sort](https://comparison-sorting.github.io/heap-sort)
 ==
 
 Heapsort algorithms for JavaScript. Parents are
@@ -7,7 +8,8 @@ and
 [@heap-data-structure](https://github.com/heap-data-structure/about).
 
 ```js
-let sort = heapsort.dary( 2 ) ;
+import {dary} from '@comparison-sorting/heap-sort';
+let sort = dary(2);
 ```
 
 [![License](https://img.shields.io/github/license/comparison-sorting/heap-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/heap-sort/main/LICENSE)
@@ -24,6 +26,6 @@ let sort = heapsort.dary( 2 ) ;
 [![Documentation](https://comparison-sorting.github.io/heap-sort/badge.svg)](https://comparison-sorting.github.io/heap-sort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@comparison-sorting/heap-sort)](https://bundlephobia.com/result?p=@comparison-sorting/heap-sort)
 
-## Reference
+## :scroll: Reference
 
-  - http://sorting.at
+  - https://sorting.at

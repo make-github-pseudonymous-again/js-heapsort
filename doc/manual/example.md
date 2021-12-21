@@ -1,9 +1,11 @@
 # Examples
-```js
-let compare = require( "@total-order/primitive" ) ;
 
-/** binary heapsort */
-let sort = heapsort.dary( 2 ) ;
+```js
+import * as compare from '@total-order/primitive';
+import * as heapSort from '@comparison-sorting/heap-sort';
+
+/** binary heap-sort */
+let sort = heapSort.dary( 2 ) ;
 
 let a = [ 1 , 6 , 5 , 3 , 2 , 4 ] ;
 
@@ -17,10 +19,10 @@ a ; // [ 6 , 5 , 4 , 3 , 2 , 1 ]
 
 // but also
 
-/** ternary heapsort */
-let sort = heapsort.dary( 3 ) ;
-/** quaternary heapsort */
-let sort = heapsort.dary( 4 ) ;
+/** ternary heap-sort */
+let sort = heapSort.dary( 3 ) ;
+/** quaternary heap-sort */
+let sort = heapSort.dary( 4 ) ;
 /** etc... */
-let sort = heapsort.dary( 5 ) ;
+let sort = heapSort.dary( 5 ) ;
 ```
