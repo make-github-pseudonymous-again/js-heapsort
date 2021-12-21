@@ -1,1 +1,1 @@
-export * from './heapsort.js' ;
+export * from './heapsort.js';
