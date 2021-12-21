@@ -45,6 +45,7 @@
     "@babel/register": "7.16.5",
     "@comparison-sorting/specification": "9.0.0",
     "ava": "3.15.0",
+    "babel-plugin-transform-remove-console": "6.9.4",
     "c8": "7.10.0",
     "coveralls": "3.1.1",
     "esdoc": "1.1.0",
