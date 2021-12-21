@@ -22,6 +22,7 @@
     "sort",
     "sorting"
   ],
+  "sideEffects": false,
   "main": "lib/index.js",
   "files": [
     "lib"
