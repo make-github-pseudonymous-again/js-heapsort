@@ -2,7 +2,58 @@
   "name": "@comparison-sorting/heap-sort",
   "description": "Heapsort algorithm for JavaScript",
   "version": "9.0.0",
+  "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
+  "homepage": "https://comparison-sorting.github.io/heap-sort",
+  "repository": {
+    "url": "https://github.com/comparison-sorting/heap-sort",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/comparison-sorting/heap-sort/issues"
+  },
+  "keywords": [
+    "bricks",
+    "ender",
+    "heap",
+    "heapsort",
+    "javascript",
+    "js",
+    "sort",
+    "sorting"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.16.0",
+    "@babel/core": "7.16.5",
+    "@babel/polyfill": "7.12.1",
+    "@babel/preset-env": "7.16.5",
+    "@babel/register": "7.16.5",
+    "@comparison-sorting/specification": "9.0.0",
+    "ava": "3.15.0",
+    "coveralls": "3.1.1",
+    "esdoc": "1.1.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "np": "7.6.0",
+    "nyc": "15.1.0"
+  },
   "ava": {
     "require": [
       "@babel/polyfill",
@@ -22,56 +73,5 @@
         "sourceMaps": "inline"
       }
     }
-  },
-  "bugs": {
-    "url": "https://github.com/comparison-sorting/heap-sort/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/cli": "7.16.0",
-    "@babel/core": "7.16.5",
-    "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.16.5",
-    "@babel/register": "7.16.5",
-    "@comparison-sorting/specification": "9.0.0",
-    "ava": "3.15.0",
-    "coveralls": "3.1.1",
-    "esdoc": "1.1.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "np": "7.6.0",
-    "nyc": "15.1.0",
-    "fixpack": "4.0.0"
-  },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://comparison-sorting.github.io/heap-sort",
-  "keywords": [
-    "bricks",
-    "ender",
-    "heap",
-    "heapsort",
-    "javascript",
-    "js",
-    "sort",
-    "sorting"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "url": "https://github.com/comparison-sorting/heap-sort",
-    "type": "git"
-  },
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "ava",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
   }
 }
