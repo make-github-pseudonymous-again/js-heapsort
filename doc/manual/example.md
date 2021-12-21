@@ -1,6 +1,6 @@
 # Examples
 ```js
-let compare = require( "@aureooms/js-compare" ) ;
+let compare = require( "@total-order/primitive" ) ;
 
 /** binary heapsort */
 let sort = heapsort.dary( 2 ) ;

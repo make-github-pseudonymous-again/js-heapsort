@@ -2,9 +2,9 @@
 ==
 
 Heapsort algorithms for JavaScript. Parents are
-[aureooms/js-sort](https://github.com/make-github-pseudonymous-again/js-sort)
+[js-sorting](https://github.com/make-github-pseudonymous-again/js-sorting)
 and
-[aureooms/js-heap](https://github.com/make-github-pseudonymous-again/js-heap).
+[@heap-data-structure](https://github.com/heap-data-structure/about).
 
 ```js
 let sort = heapsort.dary( 2 ) ;
