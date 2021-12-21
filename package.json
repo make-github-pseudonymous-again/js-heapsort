@@ -61,7 +61,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/comparison-sorting/heap-sort.git",
+    "url": "https://github.com/comparison-sorting/heap-sort",
     "type": "git"
   },
   "scripts": {
