@@ -2,14 +2,14 @@
 The code needs a ES2015+ polyfill to work, for example
 [regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then
 ```js
-const measure = require( '@comparison-sorting/heap-sort' ) ;
+const measure = await import( '@comparison-sorting/heap-sort' ) ;
 // or
 import measure from '@comparison-sorting/heap-sort' ;
 ```
