@@ -12,7 +12,7 @@ let sort = heapsort.dary( 2 ) ;
 
 [![License](https://img.shields.io/github/license/comparison-sorting/heap-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/heap-sort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/heap-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/heap-sort)
-[![Build](https://img.shields.io/travis/comparison-sorting/heap-sort/main.svg)](https://travis-ci.com/comparison-sorting/heap-sort/branches)
+[![Tests](https://img.shields.io/github/workflow/status/comparison-sorting/heap-sort/ci:test?event=push&label=tests)](https://github.com/comparison-sorting/heap-sort/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/comparison-sorting/heap-sort.svg)](https://github.com/comparison-sorting/heap-sort/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/heap-sort.svg)](https://github.com/comparison-sorting/heap-sort/issues)
 [![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/heap-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/heap-sort)
