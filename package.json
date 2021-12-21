@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-heapsort",
+  "name": "@comparison-sorting/heap-sort",
   "description": "Heapsort algorithm for JavaScript",
   "version": "9.0.0",
-  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "require": [
       "@babel/polyfill",
@@ -24,7 +24,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-heapsort/issues"
+    "url": "https://github.com/comparison-sorting/heap-sort/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -46,7 +46,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "http://make-github-pseudonymous-again.github.io/js-heapsort",
+  "homepage": "http://comparison-sorting.github.io/heap-sort",
   "keywords": [
     "bricks",
     "ender",
@@ -60,7 +60,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-heapsort.git",
+    "url": "https://github.com/comparison-sorting/heap-sort.git",
     "type": "git"
   },
   "scripts": {

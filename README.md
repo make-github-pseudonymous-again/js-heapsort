@@ -1,4 +1,4 @@
-[js-heapsort](http://make-github-pseudonymous-again.github.io/js-heapsort)
+[js-heapsort](http://comparison-sorting.github.io/heap-sort)
 ==
 
 Heapsort algorithms for JavaScript. Parents are
@@ -10,20 +10,20 @@ and
 let sort = heapsort.dary( 2 ) ;
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-heapsort.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-heapsort/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-heapsort.svg)](https://www.npmjs.org/package/@aureooms/js-heapsort)
-[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-heapsort/main.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-heapsort/branches)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-heapsort.svg)](https://david-dm.org/make-github-pseudonymous-again/js-heapsort)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-heapsort.svg)](https://david-dm.org/make-github-pseudonymous-again/js-heapsort?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-heapsort.svg)](https://github.com/make-github-pseudonymous-again/js-heapsort/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-heapsort.svg)](https://www.npmjs.org/package/@aureooms/js-heapsort)
+[![License](https://img.shields.io/github/license/comparison-sorting/heap-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/heap-sort/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@comparison-sorting/heap-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/heap-sort)
+[![Build](https://img.shields.io/travis/comparison-sorting/heap-sort/main.svg)](https://travis-ci.org/comparison-sorting/heap-sort/branches)
+[![Dependencies](https://img.shields.io/david/comparison-sorting/heap-sort.svg)](https://david-dm.org/comparison-sorting/heap-sort)
+[![Dev dependencies](https://img.shields.io/david/dev/comparison-sorting/heap-sort.svg)](https://david-dm.org/comparison-sorting/heap-sort?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/heap-sort.svg)](https://github.com/comparison-sorting/heap-sort/issues)
+[![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/heap-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/heap-sort)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-heapsort.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-heapsort/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-heapsort.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-heapsort/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-heapsort/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-heapsort)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-heapsort.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-heapsort/trends/technical_debt)
-[![Documentation](http://make-github-pseudonymous-again.github.io/js-heapsort/badge.svg)](http://make-github-pseudonymous-again.github.io/js-heapsort/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-heapsort)](https://bundlephobia.com/result?p=@aureooms/js-heapsort)
+[![Code issues](https://img.shields.io/codeclimate/issues/comparison-sorting/heap-sort.svg)](https://codeclimate.com/github/comparison-sorting/heap-sort/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/comparison-sorting/heap-sort.svg)](https://codeclimate.com/github/comparison-sorting/heap-sort/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/comparison-sorting/heap-sort/main.svg)](https://codecov.io/gh/comparison-sorting/heap-sort)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/comparison-sorting/heap-sort.svg)](https://codeclimate.com/github/comparison-sorting/heap-sort/trends/technical_debt)
+[![Documentation](http://comparison-sorting.github.io/heap-sort/badge.svg)](http://comparison-sorting.github.io/heap-sort/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@comparison-sorting/heap-sort)](https://bundlephobia.com/result?p=@comparison-sorting/heap-sort)
 
 ## Reference
 

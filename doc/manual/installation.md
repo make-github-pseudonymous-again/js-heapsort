@@ -5,10 +5,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-heapsort
+jspm install npm:@comparison-sorting/heap-sort
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-heapsort --save
+npm install @comparison-sorting/heap-sort --save
 ```

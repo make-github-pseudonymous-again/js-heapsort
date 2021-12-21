@@ -13,7 +13,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-heapsort"
+          "title": "@comparison-sorting/heap-sort"
         },
         "test": {
           "type": "ava",
