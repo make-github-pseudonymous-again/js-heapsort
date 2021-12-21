@@ -13,8 +13,7 @@ let sort = heapsort.dary( 2 ) ;
 [![License](https://img.shields.io/github/license/comparison-sorting/heap-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/heap-sort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/heap-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/heap-sort)
 [![Build](https://img.shields.io/travis/comparison-sorting/heap-sort/main.svg)](https://travis-ci.org/comparison-sorting/heap-sort/branches)
-[![Dependencies](https://img.shields.io/david/comparison-sorting/heap-sort.svg)](https://david-dm.org/comparison-sorting/heap-sort)
-[![Dev dependencies](https://img.shields.io/david/dev/comparison-sorting/heap-sort.svg)](https://david-dm.org/comparison-sorting/heap-sort?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/comparison-sorting/heap-sort.svg)](https://github.com/comparison-sorting/heap-sort/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/heap-sort.svg)](https://github.com/comparison-sorting/heap-sort/issues)
 [![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/heap-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/heap-sort)
 
