@@ -4,7 +4,7 @@
  *
  */
 
-export function dary(arity) {
+const dary = (arity) => {
 	/**
 	 * Note that here we reverse the order of the
 	 * comparison operator since when we extract
@@ -13,7 +13,7 @@ export function dary(arity) {
 	 * and then pop elements from it until it is empty.
 	 */
 
-	const sort = function (compare, a, i, j) {
+	const sort = (compare, a, i, j) => {
 		// Construct the max-heap
 
 		let k = i + 1;
@@ -109,4 +109,6 @@ export function dary(arity) {
 	};
 
 	return sort;
-}
+};
+
+export default dary;

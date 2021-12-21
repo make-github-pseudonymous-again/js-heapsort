@@ -1,1 +1,1 @@
-export * from './heapsort.js';
+export {default as dary} from './dary.js';
