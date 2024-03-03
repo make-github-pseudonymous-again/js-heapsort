@@ -2,7 +2,7 @@
 import ava from 'ava';
 
 import * as spec from '@comparison-sorting/specification';
-import * as heapsort from '../../src/index.js';
+import * as heapsort from '#module';
 
 spec.test(ava, [
 	['heapsort (unary)', heapsort.dary(1)],
